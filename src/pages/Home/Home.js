@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
+import Programmes from '../../components/Programmes/Programmes'
 import Footer from '../../components/Footer/Footer'
 import photoVeste from '../../assets/Photo-veste-beige.jpg'
 import portrait from '../../assets/portrait.jpg'
@@ -136,6 +137,7 @@ export default function Home() {
                 <button className="button">
                     Plus sur mon parcours en cliquant ici
                 </button>
+                <Programmes />
             </div>
             <Footer />
         </main>
