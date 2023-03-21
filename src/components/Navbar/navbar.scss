@@ -2,6 +2,8 @@
 
 .nav {
     @include flex(row, center, center);
+    margin-top: 10px;
+    margin-bottom: 10px;
     &_list {
         display: flex;
         color: $color-text;
