@@ -3,8 +3,8 @@ import logo from '../../assets/logo.jpg'
 
 export default function Header() {
     return (
-        <div>
-            <img src={logo} alt="logo" />
+        <div className="header">
+            <img src={logo} alt="logo" className="header_logo" />
         </div>
     )
 }
