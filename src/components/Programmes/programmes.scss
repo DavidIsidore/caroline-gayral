@@ -3,3 +3,11 @@
 .programmes {
     background-color: #a3a3a3;
 }
+
+.prog {
+    width: 100%;
+    @include flex(row, center, center);
+    &_photo {
+        width: 33%;
+    }
+}

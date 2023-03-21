@@ -8,8 +8,8 @@ export default function Programmes() {
     return (
         <div className="programmes">
             <h2>Mes programmes</h2>
-            <div>
-                <div className="prog">
+            <div className="prog">
+                <div>
                     <img src={prog1} alt="prog1" className="prog_photo" />{' '}
                 </div>
                 <div>
