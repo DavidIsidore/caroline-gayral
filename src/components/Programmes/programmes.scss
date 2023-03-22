@@ -8,7 +8,13 @@
     width: 100%;
     @include flex(row, center, center);
     &_photo {
-        width: 456px;
+        //width: 456px;
+        width: 33%;
         object-fit: cover;
+    }
+    &_txt {
+        color: white;
+        position: relative;
+        bottom: 100px;
     }
 }
