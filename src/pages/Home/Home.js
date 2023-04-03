@@ -17,9 +17,7 @@ export default function Home() {
             <PresentationBloc1 />
             <PresentationBloc2 />
             <ButtonParcours />
-
             <Programmes />
-
             <Footer />
         </main>
     )

@@ -3,20 +3,22 @@
 .programmes {
     background-color: #a3a3a3;
     position: relative;
-    top: 100px;
-}
-
-.prog {
-    width: 100%;
-    @include flex(row, center, center);
-    &_photo {
-        //width: 456px;
-        width: 33%;
-        object-fit: cover;
-    }
-    &_txt {
-        color: white;
+    top: 200px;
+    &_title {
+        font-size: 44px;
         position: relative;
-        bottom: 100px;
+        top: 50px;
+    }
+    &_link {
+        position: relative;
+        top: 150px;
+        @include flex(row, space-evenly, center);
+        &_bloc {
+            width: 640px;
+            height: 535px;
+            &_photo {
+                width: 100%;
+            }
+        }
     }
 }

@@ -1,0 +1,45 @@
+@import '../../sass/main.scss';
+
+.footer {
+    position: relative;
+    top: 700px;
+    padding-bottom: 100px;
+
+    &_bloc1 {
+        width: 70%;
+        margin: 0 auto;
+        @include flex(column, space-evenly, center);
+        gap: 50px;
+        &_social {
+            @include flex(row, space-evenly, center);
+            gap: 40px;
+            &_logo {
+                width: 50px;
+            }
+        }
+        &_eveil {
+            @include flex(row, space-around, center);
+            width: 900px;
+            &_logo {
+                width: 150px;
+                &_chambre {
+                    width: 250px;
+                }
+            }
+        }
+    }
+    &_bloc2 {
+        @include flex(column, center, center);
+        &_title {
+            font-size: 44px;
+        }
+        &_links {
+            @include flex(row, space-between, center);
+            gap: 40px;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
