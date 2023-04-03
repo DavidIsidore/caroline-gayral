@@ -2,29 +2,15 @@ import React from 'react'
 import Header from '../../components/Header/Header'
 import Programmes from '../../components/Programmes/Programmes'
 import Footer from '../../components/Footer/Footer'
-import photoVeste from '../../assets/Photo-veste-beige.jpg'
 import portrait from '../../assets/portrait.jpg'
 import './home.scss'
+import Presentation from '../../components/Presentation/Presentation'
 
 export default function Home() {
     return (
         <main>
             <Header />
-            <div className="presentation">
-                <img
-                    src={photoVeste}
-                    alt="présentation"
-                    className="presentation_photo"
-                />
-                <h1 className="presentation_title">Caroline Gayral</h1>
-                <ul className="presentation_list">
-                    <li>Hypnose classique</li>
-                    <li>Hypnose régressive</li>
-                    <li>Sophrologie</li>
-                    <li>Hypnose régressive, spirituelle, énergétique</li>
-                    <li>Thérapie comportementale et cognitive</li>
-                </ul>
-            </div>
+            <Presentation />
             <div className="text">
                 <p className="text_p">
                     Si vous êtes ici, c’est probablement que vous avez ce

@@ -1,0 +1,20 @@
+@import '../../sass/main.scss';
+
+.presentation {
+    @include flex(row, center, center);
+    position: relative;
+    top: 50px;
+    &_photo {
+        width: 225px;
+        //height: 300px;
+    }
+    &_title {
+        width: 30%;
+        font-size: 44px;
+    }
+    &_list {
+        list-style: none;
+        width: 30%;
+        line-height: 200%;
+    }
+}
