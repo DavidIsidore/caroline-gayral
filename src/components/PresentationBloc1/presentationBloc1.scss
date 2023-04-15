@@ -5,4 +5,13 @@
     top: 100px;
     line-height: 200%;
     @include flex(column, center, center);
+    &_text {
+        @include flex(column, flex-start, start);
+        &_p {
+            @include flex(column, flex-start, start);
+        }
+        &_list {
+            @include flex(column, flex-start, start);
+        }
+    }
 }
