@@ -38,6 +38,10 @@
             gap: 40px;
         }
     }
+    &_bloc3 {
+        @include flex(row, center, center);
+        gap: 20px;
+    }
 }
 
 a {

@@ -61,6 +61,11 @@ export default function Footer() {
                     </Link>
                 </div>
             </div>
+            <div className="footer_bloc3">
+                <p>© David ISIDORE - 2023</p>
+                <p>Lien vers CGU</p>
+                <p>Lien vers mentions légales</p>
+            </div>
         </div>
     )
 }
