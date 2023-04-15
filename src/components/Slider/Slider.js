@@ -6,20 +6,26 @@ import cabinet from '../../assets/imgCaroussel/cabinet-1-150x150.jpg'
 import portrait from '../../assets/imgCaroussel/portrait.jpg'
 import seance from '../../assets/imgCaroussel/seance-150x150.jpg'
 
+import './slider.scss'
+
 export default function Slider() {
     return (
-        <ImageSlider effectDelay={500} autoPlayDelay={2000}>
+        <ImageSlider effectDelay={500} autoPlayDelay={2000} classname="slider">
             <Slide>
-                <img src={veste} alt="ptoho avec veste" />
+                <img
+                    src={veste}
+                    alt="ptoho avec veste"
+                    className="slider_img"
+                />
             </Slide>
             <Slide>
-                <img src={cabinet} alt="photo du cabinet" />
+                <img src={cabinet} alt="cabinet" className="slider_img" />
             </Slide>
             <Slide>
-                <img src={portrait} alt="portrait" />
+                <img src={portrait} alt="portrait" className="slider_img" />
             </Slide>
             <Slide>
-                <img src={seance} alt="seance" />
+                <img src={seance} alt="seance" className="slider_img" />
             </Slide>
         </ImageSlider>
     )
