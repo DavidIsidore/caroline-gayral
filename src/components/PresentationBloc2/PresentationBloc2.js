@@ -1,11 +1,14 @@
 import React from 'react'
 import portrait from '../../assets/portrait.jpg'
 import './presentationBloc2.scss'
+import Slider from '../Slider/Slider'
 
 export default function PresentationBloc2() {
     return (
         <div className="bloc2">
-            <div></div>
+            <div>
+                <Slider />
+            </div>
             <div className="bloc2_text">
                 <div className="bloc2_text_sophro">
                     <div className="bloc2_text_sophro_photo">
