@@ -4,4 +4,7 @@
     @include flex(row, center, center);
     position: relative;
     top: 100px;
+    &_slider {
+        width: 50%;
+    }
 }

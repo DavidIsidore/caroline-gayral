@@ -10,8 +10,8 @@ import './slider.scss'
 
 export default function Slider() {
     return (
-        <ImageSlider effectDelay={500} autoPlayDelay={2000} classname="slider">
-            <Slide>
+        <ImageSlider effectDelay={1000} autoPlayDelay={3000} classname="slider">
+            <Slide className="slide">
                 <img
                     src={veste}
                     alt="ptoho avec veste"

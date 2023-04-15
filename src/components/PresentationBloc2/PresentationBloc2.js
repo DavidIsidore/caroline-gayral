@@ -6,15 +6,11 @@ import Slider from '../Slider/Slider'
 export default function PresentationBloc2() {
     return (
         <div className="bloc2">
-            <div>
+            <div className="bloc2_slider">
                 <Slider />
             </div>
             <div className="bloc2_text">
                 <div className="bloc2_text_sophro">
-                    <div className="bloc2_text_sophro_photo">
-                        <img src={portrait} alt="portrait" /> Caroussel à mettre
-                        en place
-                    </div>
                     <div className="bloc2_text_sophro_content">
                         <p className="bloc2_text_sophro_content_item">
                             Sophrologie, Hypnose, hypnose régressive, Coach ????
