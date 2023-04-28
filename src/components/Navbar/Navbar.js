@@ -29,7 +29,15 @@ export default function Navbar() {
                     <Link to="/about">Qui suis-je ?</Link>
                 </li>
                 <li className="nav_list_item">Articles/Podcasts</li>
-                <li className="nav_list_item">Contact</li>
+                <li
+                    className={
+                        location.pathname === '/'
+                            ? 'nav_list_item_active'
+                            : 'nav_list_item'
+                    }
+                >
+                    <Link to="/contact">Contact</Link>
+                </li>
                 <li className="nav_list_item">Tarifs</li>
             </ul>
         </nav>
