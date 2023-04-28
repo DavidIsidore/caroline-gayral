@@ -30,7 +30,7 @@ export default function Navbar() {
                 </li>
                 <li className="nav_list_item">Articles/Podcasts</li>
                 <li className="nav_list_item">Contact</li>
-                <li className="nav_list_item">tarifs</li>
+                <li className="nav_list_item">Tarifs</li>
             </ul>
         </nav>
     )

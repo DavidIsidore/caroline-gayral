@@ -4,7 +4,10 @@
     position: relative;
     top: 100px;
     line-height: 200%;
-    @include flex(column, center, center);
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    //@include flex(column, start, center);
     &_text {
         @include flex(column, flex-start, start);
         &_p {
