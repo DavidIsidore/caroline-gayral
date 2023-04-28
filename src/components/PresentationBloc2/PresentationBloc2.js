@@ -1,5 +1,5 @@
 import React from 'react'
-import portrait from '../../assets/portrait.jpg'
+//import portrait from '../../assets/portrait.jpg'
 import './presentationBloc2.scss'
 import Slider from '../Slider/Slider'
 

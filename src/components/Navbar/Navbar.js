@@ -17,15 +17,20 @@ export default function Navbar() {
                 >
                     <Link to="/">Accueil</Link>
                 </li>
+                <li className="nav_list_item">Mes programmes</li>
+                <li className="nav_list_item">Témoignages</li>
                 <li
                     className={
-                        location.pathname === '/'
+                        location.pathname === '/about'
                             ? 'nav_list_item_active'
                             : 'nav_list_item'
                     }
                 >
-                    <Link to="/about"></Link>
+                    <Link to="/about">Qui suis-je ?</Link>
                 </li>
+                <li className="nav_list_item">Articles/Podcasts</li>
+                <li className="nav_list_item">Contact</li>
+                <li className="nav_list_item">tarifs</li>
             </ul>
         </nav>
     )
