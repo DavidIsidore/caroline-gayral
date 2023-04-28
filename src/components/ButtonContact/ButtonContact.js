@@ -1,5 +1,6 @@
 import React from 'react'
+import './buttonContact.scss'
 
 export default function ButtonContact() {
-    return <button>Contactez-moi</button>
+    return <button className="buttonContact">Contactez-moi</button>
 }

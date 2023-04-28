@@ -1,0 +1,12 @@
+@import '../../sass/main.scss';
+
+.buttonContact {
+    position: relative;
+    top: 300px;
+    background-color: $color-btn;
+    width: 300px;
+    height: 150px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}

@@ -3,6 +3,7 @@ import ButtonContact from '../../components/ButtonContact/ButtonContact'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import sepia from '../../assets/Photo-sepia.jpg.jpg'
+import './about.scss'
 
 export default function About() {
     return (
@@ -46,8 +47,33 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div></div>
-            <div></div>
+            <div className="about_bloc2">
+                <p>
+                    Après avoir beaucoup réfléchi et beaucoup lu, après avoir
+                    moi-même suivi une thérapie d’accompagnement, après avoir
+                    commencé à accompagner des personnes de mon entourage, j’ai
+                    eu envie d’en faire ma vie et mon activité et j’ao
+                    professionnalisé mon approche, je me suis formée à l’hypnose
+                    spirituelle, régressive et énergétique ainsi qu’à la
+                    sophrologie et l’hypnose classique afin de disposer d’un
+                    éventail d’outils, un « couteau suisse », afin de proposer
+                    des solutions individuelles.
+                </p>
+            </div>
+            <div className="about_bloc3">
+                <h2>Mes certificats et formations</h2>
+                <ul>
+                    <li>
+                        École Française de sophrologie : Formation de
+                        Sophrologie et spécialisations
+                    </li>
+                    <li>
+                        Hypnose régressive, spirituelle et énergétique : École
+                        Éveil aux mondes intérieurs
+                    </li>
+                    <li>École Française d’Hypnose : Formation Hypnose</li>
+                </ul>
+            </div>
             <ButtonContact />
             <Footer />
         </div>

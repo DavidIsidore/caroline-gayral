@@ -1,7 +1,7 @@
 @import '../../sass/main.scss';
 
 .slider {
-    width: 150px;
+    width: 50%;
     height: auto;
 
     &_img {
@@ -9,4 +9,8 @@
         height: auto;
         object-fit: contain;
     }
+}
+
+.slide {
+    width: 50%;
 }
