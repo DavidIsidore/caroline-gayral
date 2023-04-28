@@ -17,6 +17,15 @@ export default function Navbar() {
                 >
                     <Link to="/">Accueil</Link>
                 </li>
+                <li
+                    className={
+                        location.pathname === '/'
+                            ? 'nav_list_item_active'
+                            : 'nav_list_item'
+                    }
+                >
+                    <Link to="/about"></Link>
+                </li>
             </ul>
         </nav>
     )
